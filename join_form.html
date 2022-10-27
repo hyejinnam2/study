@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>폼태그</title>
+</head>
+<body>
+<div align= "center"><font size="7" color="pink">회원가입</font></div>
+<br><br>
+<form method="get" action="test.php">
+ID : <input type="text" size="8" name="ID"><br>
+PASS : <input type="password" size="8" name="pw"><br><br>
+성별 : 남 <input type="radio" name="sex" value="1"> 여 <input type="radio" name ="sex" value="2"><br><br>
+취미 : 야구 <input type = "checkbox" name="baseball" checked> 독서<input type="checkbox" name="book"><br><br>
+전화 :
+<select name="phone1">
+<option value"02">서울</option>
+<option value"062">광주</option>
+<option value"051">부산</option>
+<option value"042">대전</option>
+<option value"064">제주</option>
+</select>
+-<input type="text" name="phone2" size="4"> -
+<input type="text" name="phone3" size="4">
+<br><br>
+자기소개:
+<textarea name="message" row="5" closs="100">자기소개</textarea>
+<input type="submit" value="가입">&nbsp<input type="reset" value="취소">
+</form>
+</body>
+</html>
